@@ -28,9 +28,26 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="BemVindo">Bem Vindo</a>
                         </li>
+                        @*<li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Lista">Lista</a>
+                        </li>*@
+                       @* <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Cadastro">Cadastro</a>
+                        </li>*@
+                        <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Editar">Editar</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" href="/Home/LoginSistema"> Login da sistema</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Categoria/Lista"> Lista</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Categoria/Cadastro"> Cadastro</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Permissao/Lista"> Lista de Permissões</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -39,6 +56,9 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Cadastro</a></li>
                                 <li><a class="dropdown-item" href="#">Produtos</a></li>
+                                <li><a class="dropdown-item" href="/Permissao/Cadastro">Cadastro Permissão</a></li>
+
+
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="/Usuarios/Cadastro">Usuarios</a></li>
                                 <li><a class="dropdown-item" href="/Usuarios/Index">Lista de Usuarios</a></li>
